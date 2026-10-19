@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <style>
+    .comp { fill: #1e293b; }
+    .screen-bg { fill: #38bdf8; }
+    @media (prefers-color-scheme: dark) {
+      .comp { fill: #f8fafc; }
+      .screen-bg { fill: #0ea5e9; }
+    }
+  </style>
+  <!-- Monitor Outer Frame & Stand -->
+  <path class="comp" d="M4 6a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6zm2 0v14h20V6H6zm6 18h8v2h-8v-2z"/>
+  <!-- Inner Screen Display -->
+  <rect class="screen-bg" x="6" y="8" width="20" height="10" rx="1" />
+</svg>
