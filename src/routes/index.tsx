@@ -4,6 +4,7 @@ export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
 	return (
+    <></>
 		<div className="max-w-4xl mx-auto px-6 py-12 bg-slate-950 min-h-screen text-slate-100">
 			<div className="border-b border-slate-800 pb-6 mb-8">
 				<h1 className="text-5xl text-2xl font-bold tracking-tight">
