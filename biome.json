@@ -12,8 +12,7 @@
 			"**/.vscode/**/*",
 			"**/index.html",
 			"**/vite.config.ts",
-			"!**/src/routeTree.gen.ts",
-			"!**/src/styles.css"
+				"!**/src/routeTree.gen.ts"
 		]
 	},
 	"formatter": {
@@ -25,6 +24,11 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true
+		}
+	},
+	"css": {
+		"parser": {
+			"tailwindDirectives": true
 		}
 	},
 	"javascript": {
