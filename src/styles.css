@@ -17,3 +17,9 @@
 		font-family: Arial, sans-serif;
 	}
 }
+
+	
+@theme {
+	--font-display: "Bricolage Grotesque", Arial, sans-serif;
+	--font-body: "IBM Plex Sans", Arial, sans-serif;
+}
